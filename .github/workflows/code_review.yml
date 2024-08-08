@@ -20,4 +20,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           config.model: 'anthropic/claude-3-opus-2024022'
           config.model_turbo: "anthropic/claude-3-opus-20240229"
-          config.custom_model_max_tokens: 1000
+          config.custom_model_max_tokens: 10000
