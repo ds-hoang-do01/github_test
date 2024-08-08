@@ -16,6 +16,7 @@ jobs:
         id: pragent
         uses: Codium-ai/pr-agent@main
         env:
-          OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
+          KEY: ${{ secrets.KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          config.model: 'gpt-4o'
+          config.model: 'anthropic/claude-3-opus-2024022'
+          config.model_turbo: "anthropic/claude-3-opus-20240229"
